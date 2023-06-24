@@ -1,3 +1,18 @@
+#Database Config
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: 'true'
+    hibernate:
+      ddl-auto: create
+    show-sql: 'true'
+  datasource:
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+#Eureka Config
 eureka:
   client:
     register-with-eureka: 'true'
@@ -6,3 +21,7 @@ eureka:
       default-zone: http://localhost:8761/eureka
   instance:
     prefer-ip-address: 'true'
+    
+
+
+    
