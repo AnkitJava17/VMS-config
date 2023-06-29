@@ -9,7 +9,7 @@ spring:
       ddl-auto: create
     show-sql: 'true'
   datasource:
-    password: Kajal@123
+    password: admin
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
 #Eureka Config
