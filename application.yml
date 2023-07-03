@@ -6,7 +6,7 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
         format_sql: 'true'
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: 'true'
   # datasource:
   #   password: admin
